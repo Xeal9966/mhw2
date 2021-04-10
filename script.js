@@ -64,7 +64,6 @@ function aggiungicarrello(event) {
     let verifica=true;
     const d=document.querySelector('.carrello');
     const corr1=document.querySelector('.carrello, .hidden');
-    console.log(cia);
     if(corr1){
         d.classList.remove('hidden');
         document.querySelector('.carrellosecret').classList.add('hidden');
