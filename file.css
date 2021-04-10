@@ -303,6 +303,10 @@ footer {
     width: 35vw;
     height: 15vw;
   }
+  
+    .box1{
+    padding-left: 40px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
