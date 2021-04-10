@@ -63,8 +63,11 @@ const b=event.currentTarget.querySelector('.hidden');
 function aggiungicarrello(event) {
     let verifica=true;
     const d=document.querySelector('.carrello');
-    if(array.length==0){
+    const corr1=document.querySelector('.carrello, .hidden');
+    console.log(cia);
+    if(corr1){
         d.classList.remove('hidden');
+        document.querySelector('.carrellosecret').classList.add('hidden');
     }
     const a=event.currentTarget.parentNode.parentNode.parentNode.parentNode.querySelector('.pic');
     for(let i=0;i<array.length;i++){
