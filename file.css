@@ -344,4 +344,8 @@ footer {
   .txt {
     font-size: 13px;
   }
+  
+    .box1{
+    padding-left: 10px;
+  }
 }
